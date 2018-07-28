@@ -1,0 +1,149 @@
+#contenedor{
+    margin:0px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    
+}
+    
+.thumb{
+    padding: 5px;
+    border: 1px solid black;
+    width: 200px;
+    height:200px;
+    margin-bottom: 0%;
+    cursor:pointer;
+    
+    
+}
+.thumb img{
+    width: 200px;
+    height: auto;
+
+}
+
+#vertical-menu {
+width: 200px;
+float:left;
+cursor:pointer;
+}
+
+#vertical-menu a {
+background-color: #eee;
+color: black;
+display: block;
+padding: 12px;
+text-decoration: none;
+}
+
+#vertical-menu a:hover {
+background-color: #ccc;
+}
+
+
+
+#vertical-menu a.active {
+background-color: #4CAF50;
+color: white;
+}
+.lightbox{
+    background-color: rgba(0,0,0,0.5);
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+.caja{
+top:0px;
+left:0px;
+width:70%;
+height:70%;
+border-radius:5px;
+padding:30px;
+position:relative;
+margin:100px auto;
+background-color: lightslategray;
+}
+
+#cerrar{
+position:absolute;
+top:0;
+right:0;
+width:30px;
+height:30px;
+color:white;
+background-color: black;
+text-align: center;
+border-radius: 15%;
+cursor:pointer;
+
+}
+#imgengrande{
+    margin: 0 auto;
+    width:50%;
+    height:50%;
+    cursor:pointer;
+
+}
+object{
+    margin:0px auto;
+    width:100%;
+    height:100%;
+    border-radius:50px;
+    cursor:pointer;
+    overflow:hidden;
+}
+.foto:hover{
+    background-color: rgba(255,255,255,0.6);
+    
+}
+.velo2{
+    position:relative;
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0;
+    padding: 5px;
+    margin-bottom: 3%;
+    cursor:pointer;
+    float:right;
+    width: 190px;
+    top:-205px;
+    height:190px;
+    transition:0.5s;
+    left:'-400px';
+}
+
+#info{
+	padding: 20px;
+	color: white;
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	background-color : rgba(0,0,0,0.7); 
+	top: '0px'; 
+	left: '-400px';
+}
+.titulofoto1{
+    margin-top:25%;
+    left:-120px;
+}
+
+ .velo2:hover{
+    opacity:3;
+   
+}
+
+
+h2{
+    margin:0 auto;
+    text-align: center;
+    float:center;
+}
+
+section{
+    float:center;
+    display: flex;
+    flex-flow: row wrap;
+}
